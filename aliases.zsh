@@ -6,7 +6,6 @@ alias config='cd ~/.config/ && nvim ~/.config/'
 # Fuzzy Searching
 alias cda='cd $(find ~/ -type d -print | fzf)'                       # Search all directories for user
 alias cdh='cd $(find . -type d -print | fzf)'                        # Search all directories from terminal's position
-alias projects='cd $(find ~/dev/projects -maxdepth 1 -type d | fzf)' # Search projects
 
 # Colorize GREP Output (Good For Log Files)
 alias grep='grep --color=auto'
