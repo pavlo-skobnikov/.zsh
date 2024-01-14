@@ -14,3 +14,5 @@ export PATH="$HOME/.local/share/neovim/bin":$PATH
 export PATH="$HOME/.local/share/nvim/mason/bin":$PATH               # Mason's path for installing LSPs
 export PATH="/Applications/IntelliJ IDEA.app/Contents/MacOS/":$PATH # IntelliJ IDEA
 export PATH="$HOME/go/bin":$PATH                                    # Go-installed binaries
+export PUBLIC_SCRIPTS="$HOME/.config/scripts"
+export SECRET_SCRIPTS="$HOME/.config/scripts/.hidden"
