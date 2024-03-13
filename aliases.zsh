@@ -4,8 +4,8 @@
 alias config='cd ~/.config/ && nvim ~/.config/'
 
 # Fuzzy Searching
-alias cda='cd $(find ~/ -type d -print | fzf)'                       # Search all directories for user
-alias cdh='cd $(find . -type d -print | fzf)'                        # Search all directories from terminal's position
+alias cda='cd $(find ~/ -type d -print | fzf)' # Search all directories for user
+alias cdh='cd $(find . -type d -print | fzf)'  # Search all directories from terminal's position
 
 # Colorize GREP Output (Good For Log Files)
 alias grep='grep --color=auto'
@@ -33,3 +33,11 @@ alias brew-update="brew update && brew upgrade && brew cleanup"
 alias sdk-update="sdk update && sdk upgrade"
 
 alias update-all='zsh-update-plugins && brew-update && sdk-update && rustup update && npm update'
+
+# Quick Path Navigation
+alias config='cd ~/.config'
+alias dev='cd ~/dev'
+alias projects='cd ~/dev/projects'
+alias desktop='cd ~/Desktop'
+alias documents='cd ~/Documents'
+alias downloads='cd ~/Downloads'
