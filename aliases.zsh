@@ -41,3 +41,13 @@ alias projects='cd ~/dev/projects'
 alias desktop='cd ~/Desktop'
 alias documents='cd ~/Documents'
 alias downloads='cd ~/Downloads'
+
+# Tmux Open/New Session Utility Function
+tsesh() {
+    if [[ "$1" == "" ]]; then
+        tmux neww $PUBLIC_SCRIPTS/tmux-open-or-create-session.sh $(pwd)
+    else
+        cd "$1"
+        tmux neww $PUBLIC_SCRIPTS/tmux-open-or-create-session.sh "$1"
+    fi
+}
