@@ -11,11 +11,10 @@ alias free='free -m' # show sizes in MB
 alias chrome="open -a 'Google Chrome'"
 
 # Updates
-alias zsh-update-plugins="find "$ZDOTDIR/plugins" -type d -exec test -e '{}/.git' ';' -print0 | xargs -I {} -0 git -C {} pull -q"
 alias brew-update="brew update && brew upgrade && brew cleanup"
 alias sdk-update="sdk update && sdk upgrade"
 
-alias update-all='zsh-update-plugins && brew-update && sdk-update && rustup update && npm update'
+alias update-all='brew-update && sdk-update && rustup update && npm update'
 
 # Quick Path Navigation
 alias cdh='cd $(find . -type d -print | fzf)'  # Search all directories from terminal's position
