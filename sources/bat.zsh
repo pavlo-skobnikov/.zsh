@@ -3,4 +3,4 @@ alias cat="bat -pp"
 alias catt="bat"
 
 # An okay default theme
-export BAT_THEME="base16"
+export BAT_THEME="gruvbox-dark"
