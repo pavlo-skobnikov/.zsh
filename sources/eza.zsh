@@ -1,5 +1,5 @@
 # Exit if the 'eza' command could not be found
-if ! (($ + commands[eza])); then
+if ! (($+commands[eza])); then
 	echo "ERROR: 'eza' command not found"
 	return
 fi
