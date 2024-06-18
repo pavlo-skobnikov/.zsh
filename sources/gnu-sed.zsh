@@ -1,2 +1,0 @@
-# Add GNU sed to the PATH
-export PATH="/opt/homebrew/opt/gnu-sed/libexec/gnubin:$PATH"

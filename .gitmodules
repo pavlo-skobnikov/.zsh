@@ -1,0 +1,15 @@
+[submodule "dependencies/zsh-autosuggestions"]
+	path = dependencies/zsh-autosuggestions
+	url = git@github.com:zsh-users/zsh-autosuggestions.git
+[submodule "dependencies/zsh-autopair"]
+	path = dependencies/zsh-autopair
+	url = git@github.com:hlissner/zsh-autopair.git
+[submodule "dependencies/zsh-syntax-highlighting"]
+	path = dependencies/zsh-syntax-highlighting
+	url = git@github.com:zsh-users/zsh-syntax-highlighting.git
+[submodule "dependencies/zsh-completions"]
+	path = dependencies/zsh-completions
+	url = git@github.com:zsh-users/zsh-completions.git
+[submodule "dependencies/zsh-vi-mode"]
+	path = dependencies/zsh-vi-mode
+	url = git@github.com:jeffreytse/zsh-vi-mode.git

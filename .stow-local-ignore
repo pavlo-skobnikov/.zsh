@@ -1,0 +1,13 @@
+\.git
+\.gitmodules
+\.gitignore
+
+LICENSE
+README.md
+
+.zcompdump
+.zcompcache
+.zsh_history
+
+dependencies
+configurations
