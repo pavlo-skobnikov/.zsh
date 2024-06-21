@@ -7,9 +7,6 @@ export FZF_CTRL_T_OPTS="
   --walker-skip .git,node_modules,target
   --preview 'bat -n --color=always {}'"
 
-# Some custom key bindings.
-bindkey -M viins '^x' fzf-cd-widget # Ctrl-x for execute jump.
-
 ## ngrok setup.
 # Add ngrok completion.
 eval "$(ngrok completion)"

@@ -22,6 +22,7 @@ alias downloads='cd ~/Downloads'
 
 # Quicker access to Neovim.
 alias vi='nvim'
+alias vim='nvim'
 
 # Fzf with bat preview.
 alias fzfp="fzf --preview \"bat --color=always --style=numbers --line-range=:500 {}\""
