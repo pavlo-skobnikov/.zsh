@@ -54,6 +54,9 @@ export BAT_THEME="base16"
 # SDKMan!
 export SDKMAN_DIR="$HOME/.sdkman"
 
+# Set karabiner configuration path for goku.
+export GOKU_EDN_CONFIG_FILE="$HOME/.config/karabiner/karabiner.edn"
+
 # Source the secret exports.
 # TODO: Use ansible-vault to encrypt the secrets and store them in plain text.
 source "$HOME/dotfiles/.secrets/secret_exports.zsh"
