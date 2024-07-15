@@ -41,7 +41,7 @@ export PATH="$PATH:$HOME/private-scripts"                                       
 # Add CLI configuration.
 export EDITOR='nvim'
 export PAGER='less'
-export MANPAGER='nvim +Man'
+export MANPAGER='nvim +Man!'
 export MANWIDTH=999
 
 # Set up Java and Maven PATHs via SDKMAN
