@@ -1,4 +1,4 @@
-# Personal zsh Configuration
+# zsh
 
 This is just a small setup for zshell without any particular extras. I don't use any Zsh plugin
 managers.
