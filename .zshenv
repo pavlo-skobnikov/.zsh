@@ -58,5 +58,4 @@ export SDKMAN_DIR="$HOME/.sdkman"
 export GOKU_EDN_CONFIG_FILE="$HOME/.config/karabiner/karabiner.edn"
 
 # Source the secret exports.
-# TODO: Use ansible-vault to encrypt the secrets and store them in plain text.
-source "$HOME/dotfiles/.secrets/secret_exports.zsh"
+source "$HOME/secrets/secret_exports.zsh"
