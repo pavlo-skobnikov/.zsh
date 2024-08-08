@@ -29,12 +29,12 @@ export PATH="$HOME/.local/bin":$PATH                                            
 export PATH=$HOME/.cargo/bin:$PATH                                              # Rust-installed binaries.
 export PATH="$HOME/go/bin":$PATH                                                # Go-installed binaries.
 export PATH="$PATH:$HOME/Library/Application Support/Coursier/bin"              # Scala Coursier.
-export PATH="$HOME/.local/share/neovim/bin":$PATH                               # Neovim.
-export PATH="$HOME/.local/share/nvim/mason/bin":$PATH                           # Neovim Mason's path for installing LSPs.
 export PATH="/opt/homebrew/opt/coreutils/libexec/gnubin:$PATH"                  # Add GNU coreutils to the PATH.
 export PATH="/opt/homebrew/opt/gnu-sed/libexec/gnubin:$PATH"                    # Add GNU sed to the PATH.
 export PATH="/Applications/IntelliJ IDEA.app/Contents/MacOS/":$PATH             # IntelliJ IDEA.
 export PATH="$PATH:$HOME/Library/Application Support/JetBrains/Toolbox/scripts" # JetBrains Toolbox.
+export PATH="$PATH:$HOME/.cargo/bin"                                            # Rust toolkit.
+export PATH="$PATH:$HOME/.cargo/env"                                            # Rust environment.
 export PATH="$PATH:$HOME/public-scripts"                                        # Public scripts.
 export PATH="$PATH:$HOME/private-scripts"                                       # Private scripts.
 
